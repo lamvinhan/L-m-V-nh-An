@@ -6,38 +6,76 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: lightblue;
+             background: #0f172a;
         }
-        .container {
-            width: 600px;
-            margin: 50px auto;
+
+        .card {
+            width: 400px;
             background: white;
-            padding: 20px;
-            border-radius: 10px;
+            margin: 60px auto;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
             text-align: center;
         }
+
         img {
-            width: 150px;
+            width: 120px;
+            height: 120px;
             border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
         }
+
         h1 {
+            margin: 10px 0;
             color: #333;
         }
+
+        h2 {
+            color: #4f46e5;
+            margin-top: 25px;
+        }
+
         p {
             color: #555;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            background: #eef2ff;
+            margin: 8px 0;
+            padding: 8px;
+            border-radius: 8px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <img src="avatar.jpg" alt="Ảnh đại diện">
-        <h1>hello ! Mình là Lâm Vỉnh An</h1>
-        <p>Địa chỉ: ấp Giồng Đình, xã Trà Cú, tỉnh Vĩnh Long </p>
-        <p>SĐT: 0374208617 </p>
-        <p>Sở thích: nghe nhạc, đi vòng vòng, chọc mấy thằng lùn. </p>
-        <p>Email: lamvinhan02@gmail.com</p>
 
+<div class="card">
+    <img src="avatar.jpg" alt="Avatar">
 
-    </div>
+    <h1>An Lâm</h1>
+    <p>Sinh viên</p>
+    <p>🎂 <b>Năm sinh:</b> 2006</p>
+    <p>🏠 <b>Địa chỉ:</b> Trà Vinh </p>
+    <p>📞 <b>Số điện thoại:</b> 0374208617</p
+     
+
+    <h2>Sở thích</h2>
+    <ul>
+        <li>🎧 Nghe nhạc</li>
+        <li>💻 Xem phim </li>
+        <li>🎮 Chơi game</li>
+    </ul>
+
+    <h2>Liên hệ</h2>
+    <p>Email: lamvinhan02@gmail.com</p>
+</div>
+
 </body>
 </html>
